@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width,initial-scale=1"/>
+  <title>Diploma — Giselly de Souza Guedin</title>
+  <style>
+    body{margin:0;font-family:Arial,Helvetica,sans-serif;background:#f6f7fb;color:#222}
+    .wrap{max-width:1100px;margin:24px auto;background:#fff;box-shadow:0 6px 22px rgba(12,20,40,.06);border-radius:6px;overflow:hidden}
+    .frame{display:flex;gap:20px;padding:18px}
+    .pdf{flex:1;background:#eee;border-radius:4px;padding:6px}
+    embed{width:100%;height:80vh;border:0}
+    .side{width:340px;padding:12px;border-left:1px solid #f0f0f0}
+    h1{font-size:18px;color:#0b3b6b;margin:6px 0}
+    .meta{font-size:14px;color:#333;margin-bottom:8px}
+    .link{display:inline-block;margin-top:12px;padding:8px 12px;background:#0b57a4;color:#fff;text-decoration:none;border-radius:4px}
+    footer{padding:12px 18px;background:#fafbff;border-top:1px solid #eee;font-size:13px;color:#666;text-align:right}
+    @media(max-width:880px){.frame{flex-direction:column}.side{width:100%;border-left:0;border-top:1px solid #eee}}
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <div class="frame">
+      <div class="pdf">
+        <!-- PDF embutido — arquivo 'diploma.pdf' no repo -->
+        <embed src="diploma.pdf" type="application/pdf">
+      </div>
+
+      <aside class="side">
+        <h1>UNIVERSIDADE ESTÁCIO DE SÁ</h1>
+        <div class="meta"><strong>Nome:</strong> GISELLY DE SOUZA GUEDIN</div>
+        <div class="meta"><strong>Curso:</strong> BACHAREL EM ADMINISTRAÇÃO</div>
+        <div class="meta"><strong>Data de conclusão:</strong> 29/11/2024</div>
+        <div class="meta"><strong>Identidade:</strong> 98033220</div>
+        <div class="meta"><strong>Emissão:</strong> 20 de março de 2025</div>
+
+        <div style="margin-top:12px;font-weight:700;color:#0b57a4">Código de Validação: SO24GIW2PGWPOK</div>
+
+        <a class="link" href="https://estacio-estudante.br-gov.live/validar-diploma/validar.php?registro=385760834" target="_blank" rel="noopener">Abrir validação oficial</a>
+      </aside>
+    </div>
+
+    <footer>
+      UNIVERSIDADE ESTÁCIO DE SÁ — CNPJ 034.075.739/0001-84
+    </footer>
+  </div>
+</body>
+</html>
